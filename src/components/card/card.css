@@ -1,0 +1,20 @@
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-basis: 150px;
+    height: 150px;
+    flex-grow: 1;
+    padding: 10px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+}
+.card:hover {
+    background-color: var(--hover-color);
+}
+.card-icon {
+    font-size: 40px;
+}
+.card span {
+    font-size: 30px;
+}
